@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="input_logo_event" id="c)ds5)#7ti;ROiNzi,{9" x="261" y="1"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="radio_datagram_send" id="d@B8%N$VW_?vmyvpuxGK"><value name="value"><shadow type="math_number" id="9]{fUX]J9E50;^Ajhnf%"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="TtJWI,+c!o`Fq.y;Y]v2"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="pxt-on-start" id="wGH9uG)0rz=G:icH3v(M" x="-178" y="33"><statement name="HANDLER"><block type="radio_set_group" id="1?qdT01u,/OYwRscdylG"><value name="ID"><shadow type="math_number_minmax" id="7qX-K|F/Us_Gq:3Bo2jf"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">13</field></shadow></value></block></statement></block><block type="input_logo_event" id="YyHy4*}(.U3;irYfZ7o9" x="506" y="3"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="radio_datagram_send" id="}OH~;I_[l/A[#oJq!_-U"><value name="value"><shadow type="math_number" id="[rz8gkkpu{/4+N~]ahE("><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="Ok[H/=ZE7![URnbu+-=W"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="radio_on_number_drag" id="cMAjWR64ZH.ZOhx}3T]g" x="-245" y="191"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="$N}Bd#@EU1[3r+DJUV3t"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="GLkpu?bFN.Ho$lo0Fo[%"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Be7+WFBT?}4q?mNhzz(I"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="eL-q0ZbM#ju@;V:{E@+%"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="BbTrg3y~0PGB$ff7adE+"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="mHVw:GS-OUorBvY4241W"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_play_note" id="^(?*8m`#`A~$C|gU{Ys5"><value name="note"><shadow type="device_note" id="w?8OC:0c.F$0T]x{XvUz"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id=".Yhg{_/0kZzXl?z1AJ#$"><field name="fraction">BeatFraction.Eighth</field></shadow></value></block></next></block></statement><value name="IF1"><block type="logic_compare" id="}_9P)6MXp_p=[q7u=pdv"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="ZLS:=}Z5^g|*Qe%0lLy)"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="fW(*0e#(Uu=;VKNw7z{X"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="U_I|9tIzHL,6]^~iwGqh"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_play_note" id="`JTYbtGztgj,yDv|227_"><value name="note"><shadow type="device_note" id="zB0,p|{~`oP;{Zz!Gzp^"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="yk9Xj-4%8s0%VAR}44G/"><field name="fraction">BeatFraction.Eighth</field></shadow></value></block></next></block></statement><next><block type="device_clear_display" id="rJ:?aWUzVk#Y8%4]5-_@"></block></next></block></statement></block></xml>
